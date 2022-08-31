@@ -45,8 +45,8 @@ contract ERC721WhitelistedMinterPauserAutoId is Context, AccessControlEnumerable
         PhaseThree
     }
     Status public status;
-    uint16 public _phase1ThresholdId;
-    uint16 public _phase2ThresholdId;
+    uint16 private _phase1ThresholdId;
+    uint16 private _phase2ThresholdId;
 
 
 
